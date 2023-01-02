@@ -1,7 +1,7 @@
 fun main() {
 //  Object untuk memanggil class Ukuran dan Child Pola
-    val banyak = Ukuran()
-    val polaFun = Pola()
+    val banyak = Ukuran(n = 0, k = 0)
+    val polaFun = Pola(n = 0, k = 0)
 
 //  Memasukan data ukuran untuk nilai n di function pola
     print("Masukan Ukuran Pola : ")
